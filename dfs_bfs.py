@@ -39,3 +39,5 @@ def bfs(visited, graph, node):
                 visited.append(neighbour) 
                 queue.append(neighbour) 
 bfs(visited, graph, 'A')
+
+#o(n+m)
