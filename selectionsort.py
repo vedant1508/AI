@@ -16,3 +16,4 @@ print("Unsorted Array=",a)
 selection_sort(a)
 print("Sorted Array=",a)
 
+#o(n^2)
