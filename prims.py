@@ -32,3 +32,4 @@ while no_edge < V - 1:
     print(str(x) + "-" + str(y) + ":" + str(G[x][y]))
     selected[y] = True
     no_edge += 1
+#o(e log(v))
