@@ -32,3 +32,5 @@ def alpha_beta(node, depth, alpha, beta, is_maximizing_player):
 root = Node(None, [Node(3, [Node(5), Node(2), Node(9)]), Node(6, [Node(8), Node(4), Node(7)])])
 best_value = alpha_beta(root, 3, float("-inf"), float("inf"), True)
 print("Best value:", best_value)
+
+#o(b^n/2)
