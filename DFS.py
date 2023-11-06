@@ -30,3 +30,5 @@ def bfs(g,s):
 
 print("BFS:")
 bfs(g,0)
+
+#o(n+m)
